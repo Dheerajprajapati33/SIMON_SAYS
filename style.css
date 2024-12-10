@@ -1,8 +1,8 @@
-/* *{
+ /* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}  */
 body{
     text-align: center;
 }
@@ -34,4 +34,18 @@ body{
 }
 .userflash{
     background-color: rgb(235, 100, 100);
+}
+/* responsive making */
+@media (max-width: 480px) {
+    .body{
+        text-align: center;
+    }
+    .btn {
+        width: 150px;
+        height: 150px;
+        margin: 0rem 1rem 1rem 1rem;
+    }
+    .box-container{
+        flex-direction: row;
+    }
 }
